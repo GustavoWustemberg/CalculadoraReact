@@ -1,0 +1,63 @@
+.container {
+  max-width: 400px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.smartPhone {
+  width: 400px;
+  height: 700px;
+  background: #000;
+  margin: 20px auto;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.smartPhone .screen {
+  width: 390px;
+  height: 690px;
+  border-radius: 15px;
+  background-image: url('../../Images/wallpaper.jpg');
+  background-size: cover;
+}
+
+.smartPhone .screen .camera img {
+  width: 20px;
+  height: 20px;
+  margin: 5px auto;
+  border-radius: 2em;
+  border: #000 2px solid;
+}
+
+.off {
+  display: none;
+}
+
+.on {
+  display: block;
+}
+
+.calcLogo {
+  width: 70px;
+  height: 65px;
+  border-radius: 15px;
+  position: absolute;
+  left: 20px;
+  bottom: 65px;
+}
+
+.smartPhoneIcons {
+  font-size: 25px;
+  position: absolute;
+  left: 115px;
+  bottom: 5px;
+  letter-spacing: 20px;
+  cursor: pointer;
+}
+
+.iconCalcOn {
+  color: #fff;
+}
