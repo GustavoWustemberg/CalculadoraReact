@@ -39,7 +39,6 @@ function SmartPhone() {
             <img className="calcLogo" src={LogoCalc} alt="Caluladora" title="Caluladora" /> :
             <span className="smartPhoneIcons iconCalcOn">◁ ◉ ▢</span>}
         </a>
-
         {calculator == false ?
           <div className='on'>
             <span className="smartPhoneIcons">◁ ◉ ▢</span>
